@@ -4,8 +4,8 @@ require 'origami'
 require 'pry'
 
  class Pdf 
-   FILE_PATH_WITH_EXCEPTION = "/home/alexandroponce/Documents/sample.pdf"
-   FILE_PATH_WITHOUT_EXCEPTION = "/home/alexandroponce/Documents/AlexandroHeribertoPonce.pdf"
+   FILE_PATH_WITH_EXCEPTION = "path"
+   FILE_PATH_WITHOUT_EXCEPTION = "path"
 
   def reader 
      reader = PDF::Reader.new(FILE_PATH_WITHOUT_EXCEPTION)
